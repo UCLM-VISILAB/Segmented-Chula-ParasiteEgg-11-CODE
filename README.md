@@ -2,7 +2,7 @@
 This repository contains the code used to manipulate the original Chula-ParasiteEgg-11 in order to generate the segmentation masks of the images as well as the JSON files with the information.
 
 ## Previous steps
-It is mandatory to have the original dataset (available at https://ieee-dataport.org/competitions/parasitic-egg-detection-and-classification-microscopic-images) downloaded. Furthermore, it is essential to download the SAM, which can be done easily by executing the following commmand:
+It is mandatory to have the original dataset (available at https://ieee-dataport.org/competitions/parasitic-egg-detection-and-classification-microscopic-images) downloaded. Furthermore, to obtain the segmentation masks it is used the SAM, which can be done easily trough executing the following commmand:
 ```bash
 pip install segment-anything
 ```
