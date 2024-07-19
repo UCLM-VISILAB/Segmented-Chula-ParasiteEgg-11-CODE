@@ -54,7 +54,7 @@ for annotation in data["annotations"]:
         annotation["iscrowd"] = 0
         annotation["segmentation"] = [[]]
 
-# Guardamos el JSON
+# Save JSON
 with open("Path to new JSON adding segmentation information", 'w') as json_file:
     json.dump(data, json_file, indent=4)
     
